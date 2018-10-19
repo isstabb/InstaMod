@@ -1,0 +1,5 @@
+praw
+python-dateutil
+nltk
+tinydb
+colorlog

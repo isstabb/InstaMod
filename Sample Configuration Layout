@@ -3,6 +3,7 @@
 		'name' : 'CryptoMarkets',
 		'abbrev' : 'CM',
 		'mods' : ('_CapR_', 'turtleflax', 'PrinceKael', 'Christi123321', 'publicmodlogs', 'AutoModerator', 'CryptoMarketsMod', 'davidvanbeveren', 'trailblazerwriting', 'golden-china', 'shimmyjimmy97', 'seristras', 'IronProdigyOfficial', 'Ginstranger', 'broccolibadass', 'Turtlecrapus', 'InstaMod'),
+		'read_pms': True,
 		'thread_lock' : True,
 		'sub_lock' : False,
 		'sub_progression' : True,
@@ -97,7 +98,8 @@
 						'comparison' : 'LESS_THAN_EQUAL_TO', 
 						'value' : 20, 
 						'flair_ID' : 'lvl 1 Lock', 
-						'action' : 'REMOVE'},
+						'action' : 'REMOVE',
+						'sticky_comment': 'If specified, this comment will be added to the thread by InstaMod and stickied.  It will not be added if a sticky already exists in the thread.'},
 					
 		'threadlock2' : {'metric' : 'positive comments', 
 						'target_subs' : ('CM'), 
